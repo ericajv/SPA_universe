@@ -1,0 +1,67 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+:root{
+--fc--tittle:rgba(225, 225, 230, 1);
+--fc--button:rgba(225, 225, 230, 1);
+--fc--hadder:rgba(196, 196, 204, 1);
+--fc--hadderHover:rgba(255, 255, 255, 1);
+--fc--text:rgba(225, 225, 230, 1);
+--fc--Button:rgba(255, 255, 255, 1);
+--fc--ButtonHover:rgba(2, 121, 157, 1);
+--bg--ButtonHover:#FFFFFF;
+--bd--Button:rgba(255, 255, 255, 1);
+
+
+}
+
+body{
+background-image: url("../images/home.png");
+font-family: 'Roboto', sans-serif;
+text-align: center;
+background-size: cover;
+background-position: 100%;
+
+
+}
+
+
+h1{
+color: var(--fc--tittle);
+font-weight: bold;
+font-size: 48px;
+line-height: 125%;
+
+padding: 294px 440px 24px;
+
+
+
+
+}
+
+button{
+color: var(--fc--button);
+background: none;
+padding: 12px 32px;
+
+border-radius: 5px;
+border: 2px solid var(--bd--Button);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+}
+
+button:hover{
+
+  background-color: var(--bg--ButtonHover);
+  color: var(--fc--ButtonHover);
+  cursor: pointer;
+}

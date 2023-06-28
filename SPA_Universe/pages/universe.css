@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+:root{
+--fc--tittle:rgba(225, 225, 230, 1);
+--fc--button:rgba(225, 225, 230, 1);
+--fc--hadder:rgba(196, 196, 204, 1);
+--fc--hadderHover:rgba(255, 255, 255, 1);
+--fc--text:rgba(225, 225, 230, 1);
+
+
+}
+
+body{
+
+background-image: url("../images/universe.png");
+
+font-family: 'Roboto', sans-serif;
+background-size: cover;
+background-size: cover;
+background-position: 100%;
+
+
+}
+
+
+h1{
+color: var(--fc--tittle);
+font-weight: bold;
+font-size: 48px;
+line-height: 125%;
+padding: 185px  102px 16px ;
+
+
+}
+
+p{
+color: var(--fc--text);
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+width: 648px;
+margin-left: 102px;
+}
